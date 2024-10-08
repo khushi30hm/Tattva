@@ -1,0 +1,1348 @@
+@charset "UTF-8";
+/**
+ * Cafert
+ * Сafert is a stylish and modern cafe template. It was created for the restaurant business: cafe, bar, bakery, pub, restaurant, pizzeria or other restaurant business
+ * Exclusively on https://1.envato.market/cafert-html
+ *
+ * @encoding        UTF-8
+ * @version         1.0.0
+ * @copyright       (C) 2018 - 2022 Merkulove ( https://merkulov.design/ ). All rights reserved.
+ * @license         Envato License https://1.envato.market/KYbje
+ * @contributors    Lilith Lamber (winter.rituel@gmail.com)
+ * @support         help@merkulov.design
+ **/
+/**
+ * Cafert
+ * Сafert is a stylish and modern cafe template. It was created for the restaurant business: cafe, bar, bakery, pub, restaurant, pizzeria or other restaurant business
+ * Exclusively on https://1.envato.market/cafert-html
+ *
+ * @encoding        UTF-8
+ * @version         1.0.0
+ * @copyright       (C) 2018 - 2022 Merkulove ( https://merkulov.design/ ). All rights reserved.
+ * @license         Envato License https://1.envato.market/KYbje
+ * @contributors    Lilith Lamber (winter.rituel@gmail.com)
+ * @support         help@merkulov.design
+ **/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a, input, button, textarea {
+  background: none;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+input, textarea {
+  border-radius: 0;
+  -webkit-appearance: none;
+}
+input[readonly], textarea[readonly] {
+  cursor: default;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+input::placeholder, textarea::placeholder {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+fieldset {
+  border: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: 1px outset transparent;
+  display: block;
+}
+
+/**
+ * Cafert
+ * Сafert is a stylish and modern cafe template. It was created for the restaurant business: cafe, bar, bakery, pub, restaurant, pizzeria or other restaurant business
+ * Exclusively on https://1.envato.market/cafert-html
+ *
+ * @encoding        UTF-8
+ * @version         1.0.0
+ * @copyright       (C) 2018 - 2022 Merkulove ( https://merkulov.design/ ). All rights reserved.
+ * @license         Envato License https://1.envato.market/KYbje
+ * @contributors    Lilith Lamber (winter.rituel@gmail.com)
+ * @support         help@merkulov.design
+ **/
+/**
+ * Cafert
+ * Сafert is a stylish and modern cafe template. It was created for the restaurant business: cafe, bar, bakery, pub, restaurant, pizzeria or other restaurant business
+ * Exclusively on https://1.envato.market/cafert-html
+ *
+ * @encoding        UTF-8
+ * @version         1.0.0
+ * @copyright       (C) 2018 - 2022 Merkulove ( https://merkulov.design/ ). All rights reserved.
+ * @license         Envato License https://1.envato.market/KYbje
+ * @contributors    Lilith Lamber (winter.rituel@gmail.com)
+ * @support         help@merkulov.design
+ **/
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.fadeIn {
+  animation: fadeIn 400ms ease-in-out;
+}
+
+.fadeOut {
+  animation: fadeOut 400ms ease-in-out;
+}
+
+/**
+ * Cafert
+ * Сafert is a stylish and modern cafe template. It was created for the restaurant business: cafe, bar, bakery, pub, restaurant, pizzeria or other restaurant business
+ * Exclusively on https://1.envato.market/cafert-html
+ *
+ * @encoding        UTF-8
+ * @version         1.0.0
+ * @copyright       (C) 2018 - 2022 Merkulove ( https://merkulov.design/ ). All rights reserved.
+ * @license         Envato License https://1.envato.market/KYbje
+ * @contributors    Lilith Lamber (winter.rituel@gmail.com)
+ * @support         help@merkulov.design
+ **/
+/**
+ * Cafert
+ * Сafert is a stylish and modern cafe template. It was created for the restaurant business: cafe, bar, bakery, pub, restaurant, pizzeria or other restaurant business
+ * Exclusively on https://1.envato.market/cafert-html
+ *
+ * @encoding        UTF-8
+ * @version         1.0.0
+ * @copyright       (C) 2018 - 2022 Merkulove ( https://merkulov.design/ ). All rights reserved.
+ * @license         Envato License https://1.envato.market/KYbje
+ * @contributors    Lilith Lamber (winter.rituel@gmail.com)
+ * @support         help@merkulov.design
+ **/
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #B38E6A #F7F7F7;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #F7F7F7;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #B38E6A;
+}
+
+html.fixed {
+  overflow: hidden;
+}
+
+body {
+  background: #fff;
+  font-family: "Montserrat", sans-serif;
+  color: #5C5C5C;
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 0 !important;
+}
+
+.section {
+  padding: 70px 0;
+}
+.section--nopb {
+  padding: 70px 0 0;
+}
+.section_header {
+  margin-bottom: 30px;
+}
+.section_header.centered {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section_header + .wrapper .btn {
+  width: 100%;
+}
+.section_header-title {
+  margin-bottom: 8px;
+}
+.section_header-subtitle {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #534931;
+}
+.section_header-text {
+  max-width: 750px;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Raleway", sans-serif;
+  color: #534931;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+a.h1, a.h2, a.h3, a.h4, a.h5, a.h6 {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+a.h1:hover, a.h1:focus, a.h2:hover, a.h2:focus, a.h3:hover, a.h3:focus, a.h4:hover, a.h4:focus, a.h5:hover, a.h5:focus, a.h6:hover, a.h6:focus {
+  color: #B38E6A;
+}
+
+h1, .h1 {
+  font-size: 36px;
+}
+
+h2, .h2 {
+  font-size: 30px;
+}
+
+h3, .h3 {
+  font-size: 25px;
+}
+
+h4, .h4 {
+  font-size: 22px;
+}
+
+h5, .h5 {
+  font-size: 18px;
+}
+
+h6, .h6 {
+  font-size: 14px;
+}
+
+label {
+  cursor: pointer;
+}
+
+input[type=checkbox] {
+  position: absolute;
+  left: -9999px;
+  height: 0;
+  width: 0;
+}
+input[type=checkbox] + label {
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  display: inline-block;
+  transition: color 0.4s ease-in-out;
+  line-height: 1.6;
+}
+input[type=checkbox]:checked + label:before, input[type=checkbox]:not(:checked) + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 3px;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #C3B2A5;
+}
+input[type=checkbox]:checked + label .icon, input[type=checkbox]:not(:checked) + label .icon {
+  font-size: 14px;
+  position: absolute;
+  top: 12px;
+  left: 3px;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+input[type=checkbox]:not(:checked) + label .icon {
+  opacity: 0;
+  transform: scale(0);
+}
+input[type=checkbox]:checked + label .icon {
+  opacity: 1;
+  transform: scale(1) translateY(-50%);
+}
+
+.field {
+  height: 60px;
+  border: 1px solid #C3B2A5;
+  padding: 0 20px;
+  transition: 0.3s ease-in-out;
+}
+.field.error {
+  border-color: red;
+}
+.field::-moz-placeholder {
+  font-size: 16px;
+  -moz-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
+}
+.field::placeholder {
+  font-size: 16px;
+  transition: opacity 0.3s ease-in-out;
+}
+.field:focus::-moz-placeholder {
+  opacity: 0;
+}
+.field:focus::placeholder {
+  opacity: 0;
+}
+
+.text--sm {
+  font-size: 14px;
+  line-height: 1.4;
+}
+.text--md {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.text--bold {
+  font-weight: 600;
+}
+.text--medium {
+  font-weight: 500;
+}
+
+.btn {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  background: #B38E6A;
+  color: #fff;
+  height: 60px;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  transition: 0.3s ease-in-out;
+}
+.btn:hover, .btn:focus {
+  background: #534931;
+}
+.btn--play {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 10px;
+}
+.btn--bordered {
+  background: transparent;
+  border: 2px solid #B38E6A;
+  color: #B38E6A;
+}
+.btn--bordered:hover, .btn--bordered:focus {
+  color: #fff;
+  border-color: #534931;
+}
+
+.videoPopup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 400000;
+  visibility: hidden;
+  transition: all 0.4s ease-in-out;
+  background: rgba(0, 0, 0, 0.6);
+}
+.videoPopup.visible {
+  visibility: visible;
+}
+.videoPopup .video_frame {
+  background: #fff;
+  padding: 20px;
+  min-height: 300px;
+  position: relative;
+  border: 2px solid #B38E6A;
+}
+.videoPopup .video_frame iframe {
+  width: 100%;
+  height: auto;
+  align-self: stretch;
+}
+.videoPopup .video_frame-close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #B38E6A;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+  right: 0;
+  top: -40px;
+  background: #fff;
+  color: #B38E6A;
+}
+.videoPopup .video_frame-close:hover {
+  color: #534931;
+}
+
+.header_trigger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 25px;
+  width: 40px;
+  position: relative;
+  z-index: 300000;
+}
+.header_trigger .line {
+  display: block;
+  position: relative;
+  height: 3px !important;
+  width: 100%;
+  background: #534931;
+  transition: 0.3s ease-in-out;
+}
+.header_trigger .line--short {
+  width: 30px;
+  align-self: flex-end;
+}
+.header_trigger.active {
+  width: 30px;
+}
+.header_trigger.active .line--short {
+  display: none;
+}
+.header_trigger.active .line:first-of-type {
+  transform: rotate(45deg);
+  top: 13px;
+}
+.header_trigger.active .line:nth-of-type(2) {
+  transform: rotate(-45deg);
+  top: -10px;
+}
+
+.icon {
+  color: #B38E6A;
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 25px;
+}
+.meta_item {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.meta_item--pin {
+  color: #B38E6A;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  gap: 8px;
+}
+
+#map {
+  height: 350px;
+}
+
+.blog_tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+.blog_tags-tag {
+  background: #B38E6A;
+  color: #fff;
+  padding: 6px 10px;
+}
+
+.media .blog_tags {
+  position: absolute;
+  top: 0;
+  padding: 10px;
+}
+
+.gallery_slider {
+  height: -moz-fit-content !important;
+  height: fit-content !important;
+}
+.gallery_slider-slide, .gallery_slider-slide .link {
+  aspect-ratio: 1/1;
+}
+.gallery_slider .link {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.gallery_slider .link img {
+  position: absolute;
+  bottom: -10%;
+  transition: 0.4s ease-in-out;
+  transform: scale(1.1);
+}
+.gallery_slider .link:hover img {
+  bottom: 0;
+}
+
+.swiper {
+  position: relative;
+}
+.swiper-wrapper {
+  height: auto !important;
+}
+.swiper-nav {
+  display: flex;
+}
+.swiper-nav--round {
+  gap: 25px;
+}
+.swiper-nav--round .swiper-nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid #B38E6A;
+  width: 50px;
+  height: 50px;
+  font-size: 12px;
+}
+.swiper-nav--round .swiper-nav-item:hover {
+  color: #B38E6A;
+}
+.swiper-overlay-nav {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+}
+.swiper-overlay-nav .nav-item {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  font-size: 17px;
+  color: #B38E6A;
+}
+.swiper-overlay-nav .nav-item:hover {
+  color: #fff;
+  background: #B38E6A;
+}
+.swiper-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  border-radius: 50%;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+}
+.swiper-pagination-bullet-active, .swiper-pagination-bullet:hover {
+  background: #B38E6A;
+}
+
+.container {
+  padding: 0 20px;
+  max-width: 1170px;
+}
+
+.collapse:not(.show) {
+  display: none;
+}
+
+.collapsing {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease-in-out;
+}
+
+.fade {
+  transition: opacity 0.3s linear;
+  opacity: 0;
+}
+
+.tab-content {
+  position: relative;
+  overflow: hidden;
+}
+.tab-content > .tab-pane {
+  position: relative;
+  width: 100%;
+  top: 0;
+  opacity: 1;
+  z-index: 1;
+}
+.tab-content > .tab-pane:not(.active) {
+  display: block;
+  height: 0;
+  opacity: 0;
+  z-index: -1;
+}
+
+.offcanvas {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 20000;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  visibility: hidden;
+  background-color: #534931;
+  background-clip: padding-box;
+  transition: transform 0.3s ease-in-out;
+}
+.offcanvas-end {
+  top: 0;
+  right: 0;
+  transform: translateX(100%);
+}
+.offcanvas-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 19000;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(33, 72, 66, 0.5);
+}
+.offcanvas.show {
+  transform: none;
+}
+
+@media screen and (min-width: 567.98px) {
+  .section_header + .wrapper .btn {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .section_header.centered + .wrapper .btn {
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 767.98px) {
+  body {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+  .section {
+    padding: 100px 0;
+  }
+  .section--nopb {
+    padding: 100px 0 0;
+  }
+  .swiper-overlay-nav .nav-item {
+    width: 100px;
+    height: 100px;
+  }
+  .videoPopup .video_frame {
+    padding: 40px;
+    min-height: 600px;
+  }
+  #map {
+    height: 600px;
+  }
+  h1, .h1 {
+    font-size: 60px;
+    line-height: 1;
+  }
+  h2, .h2 {
+    font-size: 40px;
+  }
+  h3, .h3 {
+    font-size: 28px;
+  }
+  h4, .h4 {
+    font-size: 24px;
+    line-height: 1.4;
+  }
+}
+@media screen and (min-width: 1023.98px) {
+  .section {
+    padding: 130px 0;
+  }
+  .section--nopb {
+    padding: 130px 0 0;
+  }
+  .section_header {
+    margin-bottom: 40px;
+  }
+  .section_header-title {
+    margin-bottom: 15px;
+  }
+  h1, .h1 {
+    font-size: 100px;
+  }
+  h2, .h2 {
+    font-size: 48px;
+    line-height: 1.2;
+  }
+  h3, .h3 {
+    font-size: 32px;
+    line-height: 1.4;
+  }
+}
+@media screen and (min-width: 1399.98px) {
+  .container {
+    padding: 0;
+  }
+}
+#grudus-clock .g-head {
+  background: #B38E6A !important;
+}
+#grudus-clock .g-time-wrapper {
+  border: 1px solid #B38E6A;
+  z-index: 100000;
+}
+#grudus-clock .g-clock-wrapper, #grudus-clock .g-buttons {
+  background: #fff !important;
+}
+#grudus-clock .g-clock {
+  background: gray;
+}
+#grudus-clock .g-button {
+  color: #5C5C5C !important;
+  font-weight: 500;
+  font-size: 14px;
+}
+#grudus-clock .g-button:hover, #grudus-clock .g-button:focus {
+  background: transparent;
+  color: #B38E6A !important;
+}
+
+.timepicker-ui-wrapper {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  font-family: "Montserrat", sans-serif;
+}
+.timepicker-ui-hour, .timepicker-ui-minutes {
+  background-color: #E5DCD2 !important;
+  border: transparent !important;
+  outline: none !important;
+  color: #534931 !important;
+}
+.timepicker-ui-am, .timepicker-ui-pm {
+  border-color: #E5DCD2 !important;
+  color: #E5DCD2 !important;
+}
+.timepicker-ui-am.active, .timepicker-ui-am:hover, .timepicker-ui-pm.active, .timepicker-ui-pm:hover {
+  background-color: #E5DCD2 !important;
+  color: #534931 !important;
+}
+.timepicker-ui-select-time, .timepicker-ui-hour-text, .timepicker-ui-minute-text {
+  display: none;
+}
+.timepicker-ui-cancel-btn, .timepicker-ui-ok-btn {
+  color: #E5DCD2 !important;
+}
+.timepicker-ui-cancel-btn:hover, .timepicker-ui-ok-btn:hover {
+  color: #B38E6A !important;
+  background: transparent !important;
+}
+
+.alert_popup {
+  display: flex !important;
+  justify-content: flex-end;
+}
+.alert_popup-content {
+  background: #fff;
+  width: -moz-max-content;
+  width: max-content;
+  max-width: 280px;
+  padding: 20px 30px;
+  font-size: 18px;
+  border: 1px solid #E5DCD2;
+}
+.alert_popup-close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 14px;
+  transition: 0.3s ease-in-out;
+}
+.alert_popup-close:hover {
+  color: #B38E6A;
+}
+
+input[type=search]::-webkit-search-decoration,
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-results-button,
+input[type=search]::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+a[href^="http://maps.google.com/maps"] {
+  display: none !important;
+}
+
+a[href^="https://maps.google.com/maps"] {
+  display: none !important;
+}
+
+.gmnoprint a, .gmnoprint span, .gm-style-cc {
+  display: none;
+}
+
+.gmnoprint div {
+  background: none !important;
+}
+
+.sticky-spacer {
+  display: none !important;
+}
+
+/**
+ * Cafert
+ * Сafert is a stylish and modern cafe template. It was created for the restaurant business: cafe, bar, bakery, pub, restaurant, pizzeria or other restaurant business
+ * Exclusively on https://1.envato.market/cafert-html
+ *
+ * @encoding        UTF-8
+ * @version         1.0.0
+ * @copyright       (C) 2018 - 2022 Merkulove ( https://merkulov.design/ ). All rights reserved.
+ * @license         Envato License https://1.envato.market/KYbje
+ * @contributors    Lilith Lamber (winter.rituel@gmail.com)
+ * @support         help@merkulov.design
+ **/
+.header {
+  z-index: 110000;
+  will-change: transform;
+  transition: all 0.5s ease-in-out;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.header .container {
+  min-height: 70px;
+  padding: 10px 20px;
+}
+.header.sticky {
+  position: fixed;
+  background: #E5DCD2;
+}
+.header.opened {
+  height: 100vh;
+}
+.header--pinned {
+  transform: translateY(0%);
+}
+.header--unpinned {
+  transform: translateY(-100%);
+}
+.header .logo {
+  margin-left: -10px;
+  font-size: 25px;
+}
+.header .logo_img {
+  margin-right: -10px;
+}
+.header .logo_img svg {
+  max-height: 50px;
+}
+.header_trigger {
+  order: 2;
+}
+.header_nav {
+  order: 3;
+  width: 100%;
+  overflow-y: auto;
+  max-height: calc(100vh - 100px);
+  color: #534931;
+  margin-top: 30px;
+}
+.header_nav.collapsing {
+  overflow: hidden;
+}
+.header_nav .nav-item:hover, .header_nav .nav-item:focus, .header_nav .nav-item.current, .header_nav .nav-link:hover, .header_nav .nav-link:focus, .header_nav .nav-link.current {
+  color: #B38E6A;
+}
+.header_nav .nav-link {
+  gap: 5px;
+  align-items: center;
+}
+.header_nav .nav-link[data-single=true] {
+  font-size: 18px;
+  font-weight: 600;
+}
+.header_nav .nav-link[aria-expanded=true] .icon:after {
+  top: -100%;
+}
+.header_nav .nav-link .icon {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.header_nav .nav-link .icon:before, .header_nav .nav-link .icon:after {
+  content: "";
+  position: absolute;
+  background: #B38E6A;
+}
+.header_nav .nav-link .icon:before {
+  height: 2px;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.header_nav .nav-link .icon:after {
+  height: 100%;
+  width: 2px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: top 0.3s ease-in-out;
+}
+.header_nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.header_nav-list_item .dropdown-toggle {
+  font-size: 18px;
+  font-weight: 600;
+}
+.header_nav-list_item .dropdown-menu {
+  margin: 10px 10px 0;
+}
+.header_nav-socials {
+  gap: 15px;
+  margin-top: 50px;
+}
+.header_nav-socials .link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #F7F7F7;
+  font-size: 22px;
+}
+.header_nav-socials .link .icon {
+  transition: 0.3s ease-in-out;
+}
+.header_nav-socials .link:hover, .header_nav-socials .link:focus {
+  background: #B38E6A;
+}
+.header_nav-socials .link:hover .icon, .header_nav-socials .link:focus .icon {
+  color: #F7F7F7;
+}
+
+@media screen and (min-width: 767.98px) {
+  .header .logo {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 1199.98px) {
+  .header {
+    height: 130px;
+    display: flex;
+    align-items: center;
+  }
+  .header .logo {
+    font-size: 32px;
+  }
+  .header .logo_img {
+    margin-right: 0;
+  }
+  .header .logo_img svg {
+    min-height: 76px;
+  }
+  .header.sticky {
+    height: 100px;
+  }
+  .header.sticky .header_nav-list_item .dropdown-menu {
+    padding-top: 60px;
+  }
+  .header .container {
+    max-width: 100%;
+  }
+  .header_trigger {
+    display: none;
+  }
+  .header_nav {
+    display: flex !important;
+    margin: 0;
+    overflow: visible;
+  }
+  .header_nav .nav-link[data-single=true] {
+    font-size: 16px;
+  }
+  .header_nav-socials {
+    margin-top: 0;
+  }
+  .header_nav-list {
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    gap: 30px;
+    margin-left: 100px;
+  }
+  .header_nav-list_item {
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .header_nav-list_item .dropdown-toggle {
+    position: relative;
+    z-index: 2;
+    font-size: 16px;
+  }
+  .header_nav-list_item .dropdown-menu {
+    margin: 0;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    top: 0;
+    padding-top: 50px;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+  }
+  .header_nav-list_item .dropdown-menu.active {
+    opacity: 1;
+    visibility: visible;
+  }
+  .header_nav-list_item .dropdown-menu .list-item[data-main=true] {
+    display: none !important;
+  }
+  .header_nav-list_item .dropdown-list {
+    background: #E5DCD2;
+    margin: 0 0 0 -15px;
+    padding: 10px 15px;
+    width: -moz-max-content;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .header_nav-list_item .dropdown-list .nav-item {
+    height: 100%;
+  }
+  .header_nav-list_item .dropdown-list .nav-item:hover, .header_nav-list_item .dropdown-list .nav-item:focus, .header_nav-list_item .dropdown-list .nav-item.current {
+    color: #B38E6A;
+  }
+}
+@media screen and (min-width: 1399.98px) {
+  .header .container {
+    padding: 0 100px;
+  }
+}
+/**
+ * Cafert
+ * Сafert is a stylish and modern cafe template. It was created for the restaurant business: cafe, bar, bakery, pub, restaurant, pizzeria or other restaurant business
+ * Exclusively on https://1.envato.market/cafert-html
+ *
+ * @encoding        UTF-8
+ * @version         1.0.0
+ * @copyright       (C) 2018 - 2022 Merkulove ( https://merkulov.design/ ). All rights reserved.
+ * @license         Envato License https://1.envato.market/KYbje
+ * @contributors    Lilith Lamber (winter.rituel@gmail.com)
+ * @support         help@merkulov.design
+ **/
+.page_cover, .page_breadcrumbs {
+  text-align: center;
+}
+.page_cover {
+  padding: 0 20px;
+  height: 270px;
+}
+.page_cover-title {
+  margin-top: 70px;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+.page_breadcrumbs {
+  background: #E5DCD2;
+  padding: 20px;
+}
+.page_breadcrumbs-list {
+  text-transform: capitalize;
+}
+.page_breadcrumbs-list li {
+  position: relative;
+}
+.page_breadcrumbs-list li .link {
+  color: #B38E6A;
+}
+.page_breadcrumbs-list li:not(:last-of-type):after {
+  content: "/";
+  padding-right: 4px;
+}
+
+@media screen and (min-width: 1023.98px) {
+  .page_cover {
+    height: 450px;
+  }
+  .page_cover-title {
+    margin-top: 130px;
+  }
+}
+/**
+ * Cafert
+ * Сafert is a stylish and modern cafe template. It was created for the restaurant business: cafe, bar, bakery, pub, restaurant, pizzeria or other restaurant business
+ * Exclusively on https://1.envato.market/cafert-html
+ *
+ * @encoding        UTF-8
+ * @version         1.0.0
+ * @copyright       (C) 2018 - 2022 Merkulove ( https://merkulov.design/ ). All rights reserved.
+ * @license         Envato License https://1.envato.market/KYbje
+ * @contributors    Lilith Lamber (winter.rituel@gmail.com)
+ * @support         help@merkulov.design
+ **/
+.page_cover {
+  background: url("../img/placeholder.jpg") center no-repeat/cover;
+}
+
+.info_media {
+  display: none;
+}
+.info_main {
+  gap: 15px;
+}
+.info_main .title {
+  margin-bottom: 8px;
+}
+.info_main .list {
+  gap: 8px 15px;
+  font-size: 18px;
+}
+
+.contacts_form {
+  flex-direction: column;
+  gap: 15px;
+}
+.contacts_form .btn {
+  width: 100%;
+  justify-content: center;
+}
+.contacts_form textarea {
+  width: 100%;
+  padding: 20px;
+  min-height: 200px;
+}
+
+@media screen and (min-width: 767.98px) {
+  .contacts {
+    padding-top: 40px;
+  }
+  .contacts_form {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .contacts_form input {
+    width: calc(50% - 7.5px);
+  }
+}
+@media screen and (min-width: 1023.98px) {
+  .info .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 60px;
+  }
+  .info_media {
+    display: block;
+    width: 570px;
+  }
+  .info_media img {
+    height: 100%;
+  }
+  .info_main {
+    gap: 30px;
+  }
+  .contacts_form {
+    gap: 30px;
+  }
+  .contacts_form input {
+    width: calc(50% - 15px);
+  }
+}
+@media screen and (min-width: 1199.98px) {
+  .contacts {
+    padding-top: 130px;
+  }
+}
+/**
+ * Cafert
+ * Сafert is a stylish and modern cafe template. It was created for the restaurant business: cafe, bar, bakery, pub, restaurant, pizzeria or other restaurant business
+ * Exclusively on https://1.envato.market/cafert-html
+ *
+ * @encoding        UTF-8
+ * @version         1.0.0
+ * @copyright       (C) 2018 - 2022 Merkulove ( https://merkulov.design/ ). All rights reserved.
+ * @license         Envato License https://1.envato.market/KYbje
+ * @contributors    Lilith Lamber (winter.rituel@gmail.com)
+ * @support         help@merkulov.design
+ **/
+.footer .container {
+  flex-direction: column;
+  gap: 30px;
+}
+.footer_about-address {
+  margin: 15px 0 8px;
+}
+.footer_block-title {
+  margin-bottom: 15px;
+}
+.footer_block-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px 0;
+}
+.footer_block-list .link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer_block-list .link .icon {
+  width: 18px;
+}
+.footer_block-socials {
+  margin-top: 15px;
+  gap: 15px;
+}
+.footer_block-socials .link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #F7F7F7;
+  font-size: 22px;
+}
+.footer_block-socials .link .icon {
+  transition: 0.3s ease-in-out;
+}
+.footer_block-socials .link:hover, .footer_block-socials .link:focus {
+  background: #B38E6A;
+}
+.footer_block-socials .link:hover .icon, .footer_block-socials .link:focus .icon {
+  color: #F7F7F7;
+}
+
+@media screen and (min-width: 767.98px) {
+  .footer .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px 0;
+  }
+  .footer_about .wrapper {
+    max-width: 270px;
+  }
+  .footer_about, .footer_block {
+    width: 50%;
+  }
+  .footer .footer_about + .footer_block {
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 1170px) {
+  .footer .container {
+    flex-wrap: nowrap;
+    gap: 0 15px;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .footer_about, .footer_block {
+    width: auto;
+  }
+  .footer_block {
+    margin-top: 22px;
+  }
+  .footer_block-title {
+    margin-bottom: 30px;
+  }
+  .footer_block-subtitle {
+    margin-bottom: 20px;
+  }
+  .footer .footer_about + .footer_block {
+    margin-top: 22px;
+  }
+}/*# sourceMappingURL=contacts.css.map */
