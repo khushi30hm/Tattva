@@ -22,10 +22,31 @@
             gap: 50px;
         }
 
-        html::-webkit-scrollbar {
-            display: none;
+        .menu_tabs-list_item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .menu_tabs-list_item .media {
+            width: 290px;
+            height: auto;
             overflow: hidden;
         }
+
+        .menu_tabs-list_item .media img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .menu_tabs-list_item .main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
     </style>
 </head>
 

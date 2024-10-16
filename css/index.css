@@ -1768,7 +1768,7 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
 
 .menu_tabs-list_item {
     height: 240px;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .menu_tabs-list_item img {
