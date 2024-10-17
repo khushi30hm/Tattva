@@ -10,7 +10,7 @@
  * @contributors    Lilith Lamber (winter.rituel@gmail.com)
  * @support         help@merkulov.design
  **/
-* {
+ * {
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
@@ -1768,7 +1768,7 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
 
 .menu_tabs-list_item {
     height: 240px;
-    overflow: hidden;
+    overflow: hidden
 }
 
 .menu_tabs-list_item img {
