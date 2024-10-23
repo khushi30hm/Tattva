@@ -1628,7 +1628,7 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
 
 .banner {
     position: relative;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .banner_main {

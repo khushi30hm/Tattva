@@ -50,7 +50,7 @@ a,button,input,textarea {
 
 input,textarea {
     border-radius: 0;
-    -webkit-appearance: none
+    -webkit-appearance: none;
 }
 
 input[readonly],textarea[readonly] {
@@ -1464,7 +1464,6 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
 
 .banner {
     display: none;
-    background: url('https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_876164_1724899419641_caffe_late.jfif') center/cover no-repeat fixed
 }
 
 @media screen and (min-width:767.98px) {
