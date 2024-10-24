@@ -1105,7 +1105,7 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
 
 .header .container {
     min-height: 70px;
-    padding: 10px 20px
+    padding: 10px 20px;
 }
 
 .header.sticky {
