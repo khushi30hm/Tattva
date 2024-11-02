@@ -1840,7 +1840,7 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
 
 @media screen and (min-width:566.68px) {
     .menu_tabs-list_item {
-        height: 340px
+        height: auto;
     }
 }
 
@@ -1855,7 +1855,8 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
     }
 
     .menu_tabs-list_item {
-        width: calc(50% - 7.5px)
+        width: calc(50% - 7.5px);
+        height: auto;
     }
 }
 
@@ -1870,7 +1871,8 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
     }
 
     .menu_tabs-list_item {
-        width: calc(50% - 15px)
+        width: calc(50% - 15px);
+        height: auto;
     }
 }
 
@@ -1890,7 +1892,7 @@ a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"] {
 
     .menu_tabs-list_item {
         width: calc(100% / 4 - 15px);
-        height: 230px
+        height: auto;
     }
 }
 

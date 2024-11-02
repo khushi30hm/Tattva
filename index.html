@@ -29,6 +29,16 @@
             gap: 50px;
         }
 
+        .header_nav-socials .link i {
+            color: #BA945C;
+            transition: color 0.3s ease;
+        }
+
+        .header_nav-socials .link:hover i {
+            color: #fff !important;
+        }
+
+
         html {
             scroll-behavior: smooth;
         }
@@ -73,6 +83,56 @@
             font-weight: bold;
         }
 
+        .floating-buttons {
+            position: fixed;
+            bottom: 20px;
+            z-index: 1000;
+        }
+
+        .whatsapp-button,
+        .book-now-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: background 0.3s;
+        }
+
+        .whatsapp-button {
+            background-color: #25D366;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .book-now-button {
+            background-color: #BA945C;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .whatsapp-button:hover,
+        .book-now-button:hover {
+            opacity: 0.8;
+        }
+
+        .book-now-button {
+            float: right;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+        }
+
+        .whatsapp-button {
+            float: left;
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+        }
+
+
         @media (max-width: 768px) {
             iframe {
                 height: 400px;
@@ -108,7 +168,7 @@
                     </li>
                     <li class="header_nav-list_item">
                         <a class="nav-item nav-link" href="services.html" data-page="services" data-single="true">
-                            <span class="nav-item_text">Services</span>
+                            <span class="nav-item_text">Events</span>
                         </a>
                     </li>
                     <li class="header_nav-list_item">
@@ -3187,7 +3247,8 @@
                                 <a class="btn" href="reservations.html">Reservations</a>
                             </span>
                             <span data-aos="fade-up" data-aos-delay="50">
-                                <a class="btn btn--play videoTrigger" href="#"><i class="icon-play"></i></a>
+                                <a class="btn btn--play videoTrigger"
+                                    href="https://www.youtube.com/watch?v=0TOyI6IHcMA"><i class="icon-play"></i></a>
                             </span>
                         </div>
                     </div>
@@ -3259,8 +3320,8 @@
             <div class="container d-md-flex align-items-center">
                 <div class="offer_media" data-aos="fade-right">
                     <picture>
-                        <source data-srcset="amibence/img28.jpg" srcset="" type="image/jpg" />
-                        <img class="lazy" data-src="" src="" alt="" />
+                        <source data-srcset="amibence/img28.jpg" srcset="amibence/img28.jpg" type="image/jpg" />
+                        <img class="lazy" data-src="amibence/img28.jpg" src="amibence/img28.jpg" alt="" />
                     </picture>
                 </div>
                 <div class="offer_main">
@@ -3317,10 +3378,10 @@
                                     <a class="link" href="#">
                                         <div class="media">
                                             <picture>
-                                                <source
-                                                    data-srcset="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_852196_1713460896.066043.png"
-                                                    srcset="" type="image/jpg" />
-                                                <img class="lazy" data-src="" src="" alt="Beverages dish" />
+                                                <source data-srcset="img/food/pasta/creamy.png"
+                                                    srcset="img/food/pasta/creamy.png" type="image/jpg" />
+                                                <img class="lazy" data-src="img/food/pasta/creamy.png"
+                                                    src="img/food/pasta/creamy.png" alt="" />
                                             </picture>
                                         </div>
                                         <div class="main">
@@ -3338,10 +3399,10 @@
                                     <a class="link" href="#">
                                         <div class="media">
                                             <picture>
-                                                <source
-                                                    data-srcset="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_915613_1723258767998_DSC09406.jpg"
-                                                    srcset="" type="image/jpg" />
-                                                <img class="lazy" data-src="" src="" alt="Beverages dish" />
+                                                <source data-srcset="img/food/small-plates/chicken-skwer.jpg"
+                                                    srcset="img/food/small-plates/chicken-skwer.jpg" type="image/jpg" />
+                                                <img class="lazy" data-src="img/food/small-plates/chicken-skwer.jpg"
+                                                    src="img/food/small-plates/chicken-skwer.jpg" alt="" />
                                             </picture>
                                         </div>
                                         <div class="main">
@@ -3355,10 +3416,10 @@
                                     <a class="link" href="#">
                                         <div class="media">
                                             <picture>
-                                                <source
-                                                    data-srcset="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_852182_1722214889784_laksa_soup.jpg"
-                                                    srcset="" type="image/webp" />
-                                                <img class="lazy" data-src="" src="" alt="Beverages dish" />
+                                                <source data-srcset="img/food/soup-salad/singapore-lasa.jpg"
+                                                    srcset="img/food/soup-salad/singapore-lasa.jpg" type="image/webp" />
+                                                <img class="lazy" data-src="img/food/soup-salad/singapore-lasa.jpg"
+                                                    src="img/food/soup-salad/singapore-lasa.jpg" alt="" />
                                             </picture>
                                         </div>
                                         <div class="main">
@@ -3373,11 +3434,10 @@
                                     <a class="link" href="#">
                                         <div class="media">
                                             <picture>
-                                                <source
-                                                    data-srcset="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_852192_1713358618.7734277.png"
-                                                    srcset="img/placeholder.jpg" type="image/webp" />
-                                                <img class="lazy" data-src="img/placeholder.jpg"
-                                                    src="img/placeholder.jpg" alt="Beverages dish" />
+                                                <source data-srcset="img/food/pasta/spaghetti.png"
+                                                    srcset="img/food/pasta/spaghetti.png" type="image/webp" />
+                                                <img class="lazy" data-src="img/food/pasta/spaghetti.png"
+                                                    src="img/food/pasta/spaghetti.png" alt="" />
                                             </picture>
                                         </div>
                                         <div class="main">
@@ -3400,7 +3460,7 @@
                                                     data-srcset="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_Baklava_Latte__Cold_Hot__1726630749823_baklava_shake.jfif"
                                                     srcset="img/placeholder.jpg" type="image/webp" />
                                                 <img class="lazy" data-src="img/placeholder.jpg"
-                                                    src="img/placeholder.jpg" alt="Starters dish" />
+                                                    src="img/placeholder.jpg" alt="" />
                                             </picture>
                                         </div>
                                         <div class="main">
@@ -3473,16 +3533,15 @@
                                     <a class="link" href="#">
                                         <div class="media">
                                             <picture>
-                                                <source
-                                                    data-srcset="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_852228_1712466439.7740364.png"
-                                                    srcset="img/placeholder.jpg" type="image/webp" />
-                                                <img class="lazy" data-src="img/placeholder.jpg"
-                                                    src="img/placeholder.jpg" alt="Breakfasts dish" />
+                                                <source data-srcset="img/dessert/wrath.png"
+                                                    srcset="img/dessert/wrath.png" type="image/webp" />
+                                                <img class="lazy" data-src="img/dessert/wrath.png"
+                                                    src="img/dessert/wrath.png" alt="" />
                                             </picture>
                                         </div>
                                         <div class="main">
                                             <span class="main_price">450</span>
-                                            <span class="main_title h5">Pride</span>
+                                            <span class="main_title h5">Wrath</span>
                                             <p class="main_ingredients">Mirror, Mirror</p>
                                         </div>
                                     </a>
@@ -3491,11 +3550,10 @@
                                     <a class="link" href="#">
                                         <div class="media">
                                             <picture>
-                                                <source
-                                                    data-srcset="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_852229_1712466410.9803252.png"
-                                                    srcset="img/placeholder.jpg" type="image/webp" />
-                                                <img class="lazy" data-src="img/placeholder.jpg"
-                                                    src="img/placeholder.jpg" alt="Breakfasts dish" />
+                                                <source data-srcset="img/dessert/greed.png"
+                                                    srcset="img/dessert/greed.png" type="image/webp" />
+                                                <img class="lazy" data-src="img/dessert/greed.png"
+                                                    src="img/dessert/greed.png" alt="" />
                                             </picture>
                                         </div>
                                         <div class="main">
@@ -3509,11 +3567,10 @@
                                     <a class="link" href="#">
                                         <div class="media">
                                             <picture>
-                                                <source
-                                                    data-srcset="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_852233_1712466379.4572031.png"
-                                                    srcset="img/placeholder.jpg" type="image/webp" />
-                                                <img class="lazy" data-src="img/placeholder.jpg"
-                                                    src="img/placeholder.jpg" alt="Breakfasts dish" />
+                                                <source data-srcset="img/dessert/lust.png" srcset="img/dessert/lust.png"
+                                                    type="image/webp" />
+                                                <img class="lazy" data-src="img/dessert/lust.png"
+                                                    src="img/dessert/lust.png" alt="" />
                                             </picture>
                                         </div>
                                         <div class="main">
@@ -3527,11 +3584,10 @@
                                     <a class="link" href="#">
                                         <div class="media">
                                             <picture>
-                                                <source
-                                                    data-srcset="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_852235_1712466340.7950299.png"
-                                                    srcset="img/placeholder.jpg" type="image/webp" />
-                                                <img class="lazy" data-src="img/placeholder.jpg"
-                                                    src="img/placeholder.jpg" alt="Breakfasts dish" />
+                                                <source data-srcset="img/dessert/gluttony.png"
+                                                    srcset="img/dessert/gluttony.png" type="image/webp" />
+                                                <img class="lazy" data-src="img/dessert/gluttony.png"
+                                                    src="img/dessert/gluttony.png" alt="" />
                                             </picture>
                                         </div>
                                         <div class="main">
@@ -3550,11 +3606,10 @@
                                     <a class="link" href="#">
                                         <div class="media">
                                             <picture>
-                                                <source
-                                                    data-srcset="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_874985_1715794805.2155929.png"
-                                                    srcset="img/placeholder.jpg" type="image/webp" />
-                                                <img class="lazy" data-src="img/placeholder.jpg"
-                                                    src="img/placeholder.jpg" alt="Desserts dish" />
+                                                <source data-srcset="img/moctail/shake.png"
+                                                    srcset="img/moctail/shake.png" type="image/webp" />
+                                                <img class="lazy" data-src="img/moctail/shake.png"
+                                                    src="img/moctail/shake.png" alt="" />
                                             </picture>
                                         </div>
                                         <div class="main">
@@ -3569,11 +3624,10 @@
                                     <a class="link" href="#">
                                         <div class="media">
                                             <picture>
-                                                <source
-                                                    data-srcset="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_862879_1714324089.7748175.png"
-                                                    srcset="img/placeholder.jpg" type="image/webp" />
-                                                <img class="lazy" data-src="img/placeholder.jpg"
-                                                    src="img/placeholder.jpg" alt="Desserts dish" />
+                                                <source data-srcset="img/moctail/twister.png"
+                                                    srcset="img/moctail/twister.png" type="image/webp" />
+                                                <img class="lazy" data-src="img/moctail/twister.png"
+                                                    src="img/moctail/twister.png" alt="Desserts dish" />
                                             </picture>
                                         </div>
                                         <div class="main">
@@ -3590,11 +3644,10 @@
                                     <a class="link" href="#">
                                         <div class="media">
                                             <picture>
-                                                <source
-                                                    data-srcset="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_852239_1714209950.1237562.png"
-                                                    srcset="img/placeholder.jpg" type="image/webp" />
-                                                <img class="lazy" data-src="img/placeholder.jpg"
-                                                    src="img/placeholder.jpg" alt="Desserts dish" />
+                                                <source data-srcset="img/moctail/neon.png" srcset="img/moctail/neon.png"
+                                                    type="image/webp" />
+                                                <img class="lazy" data-src="img/moctail/neon.png"
+                                                    src="img/moctail/neon.png" alt="" />
                                             </picture>
                                         </div>
                                         <div class="main">
@@ -3609,20 +3662,17 @@
                                     <a class="link" href="#">
                                         <div class="media">
                                             <picture>
-                                                <source
-                                                    data-srcset="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_863160_1714401940.348141.png"
-                                                    srcset="img/placeholder.jpg" type="image/webp" />
-                                                <img class="lazy" data-src="img/placeholder.jpg"
-                                                    src="img/placeholder.jpg" alt="Desserts dish" />
+                                                <source data-srcset="img/moctail/pop.png" srcset="img/moctail/pop.png"
+                                                    type="image/webp" />
+                                                <img class="lazy" data-src="img/moctail/pop.png"
+                                                    src="img/moctail/pop.png" alt="" />
                                             </picture>
                                         </div>
                                         <div class="main">
                                             <span class="main_price">300</span>
-                                            <span class="main_title h5">JAMUN RUSH</span>
-                                            <p class="main_ingredients">A vibrant non-alcoholic crea�on inspired by
-                                                tatva and the rich flavor of jamun, blending jamun juice
-                                                with black currant, lime juice, and mint leaves, topped with ginger ale
-                                                for a refreshing finish.</p>
+                                            <span class="main_title h5">Pop</span>
+                                            <p class="main_ingredients">A Perfectly balance non alcoholic drink with pop
+                                                corn flavour..</p>
                                         </div>
                                     </a>
                                 </li>
@@ -3955,14 +4005,10 @@
                         <a class="link" href="#">
                             <div class="media">
                                 <picture>
-                                    <source
-                                        data-srcset="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_852233_1712466379.4572031.png"
-                                        srcset="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_852233_1712466379.4572031.png"
+                                    <source data-srcset="img/dessert/lust.png" srcset="img/dessert/lust.png"
                                         type="image/webp" />
-                                    <img class="lazy"
-                                        data-src="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_852233_1712466379.4572031.png"
-                                        src="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_852233_1712466379.4572031.png"
-                                        alt="Three Chocolates" />
+                                    <img class="lazy" data-src="img/dessert/lust.png" src="img/dessert/lust.png"
+                                        alt="" />
                                 </picture>
                             </div>
                             <div class="main">
@@ -4071,28 +4117,20 @@
                 <div class="recent_wrapper">
                     <div class="recent_media">
                         <picture>
-                            <source
-                                data-srcset="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_852181_1712422473.455511.png"
-                                srcset="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_852181_1712422473.455511.png"
-                                type="image/webp" />
-                            <img class="lazy"
-                                data-src="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_852181_1712422473.455511.png"
-                                src="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_852181_1712422473.455511.png"
-                                alt="Our Blog" />
+                            <source data-srcset="img/food/soup-salad/chicken-pho.png"
+                                srcset="img/food/soup-salad/chicken-pho.png" type="image/webp" />
+                            <img class="lazy" data-src="img/food/soup-salad/chicken-pho.png"
+                                src="img/food/soup-salad/chicken-pho.png" alt="Our Blog" />
                         </picture>
                     </div>
                     <div class="recent_posts">
                         <div class="recent_posts-item" data-aos="fade-left">
                             <div class="media">
                                 <picture>
-                                    <source
-                                        data-srcset="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_852184_1713225813.664531.png"
-                                        srcset="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_852184_1713225813.664531.png"
-                                        type="image/webp" />
-                                    <img class="lazy"
-                                        data-src="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_852184_1713225813.664531.png"
-                                        src="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_852184_1713225813.664531.png"
-                                        alt="" />
+                                    <source data-srcset="img/food/soup-salad/chicken-salad.png"
+                                        srcset="img/food/soup-salad/chicken-salad.png" type="image/webp" />
+                                    <img class="lazy" data-src="img/food/soup-salad/chicken-salad.png"
+                                        src="img/food/soup-salad/chicken-salad.png" alt="" />
                                 </picture>
                                 <span class="media_date h6">17 Oct, 2024</span>
                             </div>
@@ -4109,13 +4147,9 @@
                         <div class="recent_posts-item" data-aos="fade-left">
                             <div class="media">
                                 <picture>
-                                    <source
-                                        data-srcset="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_852213_1722218142784_greek.jpg"
-                                        srcset="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_852213_1722218142784_greek.jpg"
+                                    <source data-srcset="img/food/pizza/greek.jpg" srcset="img/food/pizza/greek.jpg"
                                         type="image/webp" />
-                                    <img class="lazy"
-                                        data-src="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_852213_1722218142784_greek.jpg"
-                                        src="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_852213_1722218142784_greek.jpg"
+                                    <img class="lazy" data-src="img/food/pizza/greek.jpg" src="img/food/pizza/greek.jpg"
                                         alt="" />
                                 </picture>
                                 <span class="media_date h6">17 Oct, 2024</span>
@@ -4235,6 +4269,14 @@
             </div>
         </div>
     </footer>
+    <div class="floating-buttons">
+        <a href="BOOKING_URL" class="book-now-button">
+            <i class="fas fa-calendar-check"></i>
+        </a>
+        <a href="https://wa.me/YOUR_PHONE_NUMBER" class="whatsapp-button" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const currentPage = window.location.pathname.split("/").pop();
@@ -4245,7 +4287,7 @@
                 if (currentPage.includes(page)) {
                     link.classList.add("active");
                 } else {
-                    link.classList.remove("active"); 
+                    link.classList.remove("active");
                 }
             });
         });
