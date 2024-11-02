@@ -101,7 +101,7 @@
                             <span class="nav-item_text">Contact</span>
                         </a>
                     </li>
-                    
+
                 </ul>
                 <ul class="header_nav-socials d-flex">
                     <li>
@@ -278,7 +278,7 @@
         <!-- gallery section end -->
     </main>
     <!-- contacts content end -->
-    <footer class="footer section" style="background-color:#e8dcd4;">
+    <footer class="footer section">
         <div class="container d-flex">
             <div class="footer_about">
                 <a class="logo h3" href="index.html">
@@ -350,23 +350,23 @@
             </div>
         </div>
     </footer>
-   <script>
-    document.addEventListener("DOMContentLoaded", function() {
-    const currentPage = window.location.pathname.split("/").pop();
-    const navLinks = document.querySelectorAll(".header_nav-list_item .nav-link");
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const currentPage = window.location.pathname.split("/").pop();
+            const navLinks = document.querySelectorAll(".header_nav-list_item .nav-link");
 
-    navLinks.forEach(link => {
-        const page = link.getAttribute("data-page");
+            navLinks.forEach(link => {
+                const page = link.getAttribute("data-page");
 
-        if (currentPage.includes(page)) {
-            link.classList.add("active");
-        } else {
-            link.classList.remove("active");
-        }
-    });
-});
+                if (currentPage.includes(page)) {
+                    link.classList.add("active");
+                } else {
+                    link.classList.remove("active");
+                }
+            });
+        });
 
-   </script>
+    </script>
     <script src="js/common.min.js"></script>
     <script src="js/map.min.js"></script>
 </body>

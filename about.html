@@ -41,6 +41,7 @@
             max-width: 100%;
             height: auto;
         }
+
         .nav-item.nav-link.active .nav-item_text {
             color: #BA945C;
             font-weight: bold;
@@ -586,9 +587,7 @@
                 <div class="promo_video">
                     <span class="cover">
                         <picture>
-                            <source
-                                data-srcset="amibence/img20.jpg"
-                                srcset="amibence/img20.jpg" type="image/webp" />
+                            <source data-srcset="amibence/img20.jpg" srcset="amibence/img20.jpg" type="image/webp" />
                             <img class="lazy" data-src="amibence/img20.jpg" src="amibence/img20.jpg" alt="About Us" />
                         </picture>
                         <a class="btn" href="#">
@@ -978,11 +977,8 @@
                 <div class="main">
                     <div class="main_media">
                         <picture>
-                            <source
-                                data-srcset="amibence/img26.jpg"
-                                srcset="amibence/img26.jpg" type="image/webp" />
-                            <img class="lazy" data-src="amibence/img26.jpg" src="amibence/img26.jpg"
-                                alt="" />
+                            <source data-srcset="amibence/img26.jpg" srcset="amibence/img26.jpg" type="image/webp" />
+                            <img class="lazy" data-src="amibence/img26.jpg" src="amibence/img26.jpg" alt="" />
                         </picture>
                     </div>
                     <div class="section_header">
@@ -1002,11 +998,8 @@
                 </div>
                 <div class="media">
                     <picture>
-                        <source
-                            data-srcset="grp/abt.jpg"
-                            srcset="img/placeholder.jpg" type="image/webp" />
-                        <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg"
-                            alt="" />
+                        <source data-srcset="grp/abt.jpg" srcset="grp/abt.jpg" type="image/webp" />
+                        <img class="lazy" data-src="grp/abt.jpg" src="grp/abt.jpg" alt="" />
                     </picture>
                     <span class="media_oval">
                         <svg width="700" height="700" viewBox="0 0 700 700" fill="none"
@@ -1211,7 +1204,7 @@
                 if (currentPage.includes(page)) {
                     link.classList.add("active");
                 } else {
-                    link.classList.remove("active"); 
+                    link.classList.remove("active");
                 }
             });
         });
