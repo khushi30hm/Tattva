@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>New Menu| Tattva</title>
+    <title>Menu| Tattva</title>
     <link rel="icon" type="image/png" href="Tattva_imgs/PNGs/Logomark/Logomark_White.png">
     <script id="www-widgetapi-script" src="https://s.ytimg.com/yts/jsbin/www-widgetapi-vflS50iB-/www-widgetapi.js"
         async=""></script>
@@ -22,6 +22,7 @@
             max-height: 90px;
             -webkit-backdrop-filter: blur(5px);
             backdrop-filter: blur(15px);
+            background-color: #c3b2a5;
         }
 
         .header_nav-list {
@@ -33,13 +34,13 @@
         }
 
         .header_nav-socials .link i {
-        color: #BA945C;
-        transition: color 0.3s ease; 
-    }
+            color: #BA945C;
+            transition: color 0.3s ease;
+        }
 
-    .header_nav-socials .link:hover i {
-        color: #fff !important; 
-    }
+        .header_nav-socials .link:hover i {
+            color: #fff !important;
+        }
 
         html::-webkit-scrollbar {
             display: none;
@@ -50,10 +51,6 @@
             max-height: 80px;
             max-width: 100%;
             height: auto;
-        }
-
-        .container {
-            text-align: center;
         }
 
         .menuimg {
@@ -103,7 +100,8 @@
             z-index: 1000;
         }
 
-        .whatsapp-button, .book-now-button {
+        .whatsapp-button,
+        .book-now-button {
             display: flex;
             align-items: center;
             justify-content: center;
@@ -126,7 +124,8 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
-        .whatsapp-button:hover, .book-now-button:hover {
+        .whatsapp-button:hover,
+        .book-now-button:hover {
             opacity: 0.8;
         }
 
@@ -341,7 +340,7 @@
     <header class="page">
         <div class="page_cover d-flex flex-column align-items-center justify-content-center">
             <div class="page_cover-img"
-                style="background-image: url('amibence/img18.jpg'); background-size: cover; background-position: center; width: 100%;">
+                style="background-image: url('compressed-imgs/img18.jpg'); background-size: cover; background-position: center; width: 100%;">
             </div>
         </div>
 
@@ -368,7 +367,6 @@
             alt="Selected Image" style="display: block; margin: auto; max-width: 100%; height: auto;" />
     </div>
 
-
     <footer class="footer section">
         <div class="container d-flex">
             <div class="footer_about">
@@ -384,7 +382,7 @@
                         height="100" />
                 </a>
                 <div class="wrapper">
-                    <p class="footer_about-address text--sm text--bold">7th Floor, Redpine Peninsula,, Andheri East,
+                    <p class="footer_about-address text--sm text--bold">7th Floor, Redpine Peninsula, Andheri East,
                         mumbai, Maharashtra, India, 400059</p>
                     <p class="footer_about-copyright text--sm">
                         &copy; Tattva All Rights Reserved <span id="currentYear"></span>
@@ -441,6 +439,7 @@
             </div>
         </div>
     </footer>
+
     <div class="floating-buttons">
         <a href="https://www.zomato.com/mumbai/tattva-bar-cafe-marol?amp=1" class="book-now-button">
             <i class="fas fa-calendar-check"></i>
@@ -448,7 +447,6 @@
         <a href="https://wa.me/916359182279" class="whatsapp-button" target="_blank">
             <i class="fab fa-whatsapp"></i>
         </a>
-
     </div>
 
     <script>
@@ -484,7 +482,7 @@
                     img.src = 'https://i.pinimg.com/564x/a8/47/2d/a8472d5f27892941c71b0a9de01e1440.jpg';
                     break;
                 case 'cocktails':
-                    img.src = 'img/cocktails.jpg';
+                    img.src = 'compressed-imgs/cocktail.jpg';
                     break;
                 case 'mocktails':
                     img.src = 'https://i.pinimg.com/564x/a8/47/2d/a8472d5f27892941c71b0a9de01e1440.jpg';
@@ -510,7 +508,6 @@
             img.style.display = 'block';
         }
     </script>
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

@@ -45,29 +45,23 @@
         }
 
         .menu_tabs-list_item {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 10px;
-        }
-
-        .menu_tabs-list_item .media {
-            width: 290px;
             height: auto;
-            overflow: hidden;
+            overflow: hidden
         }
 
-        .menu_tabs-list_item .media img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
+        .menu_tabs-list_item img {
+            height: 100%
         }
 
-        .menu_tabs-list_item .main {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+        .menu_tabs-list_item .link {
+            display: block;
+            position: relative
         }
+
+        .menu_tabs-list_item .link:hover .main {
+            opacity: 1
+        }
+
 
         .hero_slider {
             will-change: transform;
@@ -3258,35 +3252,42 @@
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <picture>
-                                <source data-srcset="amibence/img12.jpg" srcset="amibence/img12.jpg"
+                                <source data-srcset="compressed-imgs/img12.jpg" srcset="compressed-imgs/img12.jpg"
                                     type="image/webp" />
-                                <img class="lazy" data-src="amibence/img12.jpg" src="amibence/img12.jpg" alt="media" />
+                                <img class="lazy" data-src="compressed-imgs/img12.jpg" src="compressed-imgs/img12.jpg"
+                                    alt="media" />
                             </picture>
                         </div>
                         <div class="swiper-slide">
                             <picture>
-                                <source data-srcset="amibence/img11.jpg" srcset="amibence/img11.jpg"
+                                <source data-srcset="compressed-imgs/img11.jpg" srcset="compressed-imgs/img11.jpg"
                                     type="image/webp" />
-                                <img class="lazy" data-src="amibence/img11.jpg" src="amibence/img11.jpg" alt="media" />
+                                <img class="lazy" data-src="compressed-imgs/img11.jpg" src="compressed-imgs/img11.jpg"
+                                    alt="media" />
                             </picture>
                         </div>
                         <div class="swiper-slide">
                             <picture>
-                                <source data-srcset="amibence/img7.jpg" srcset="amibence/img7.jpg" type="image/webp" />
-                                <img class="lazy" data-src="amibence/img7.jpg" src="amibence/img7.jpg" alt="media" />
-                            </picture>
-                        </div>
-                        <div class="swiper-slide">
-                            <picture>
-                                <source data-srcset="amibence/img20.jpg" srcset="amibence/img20.jpg"
+                                <source data-srcset="compressed-imgs/img7.jpg" srcset="compressed-imgs/img7.jpg"
                                     type="image/webp" />
-                                <img class="lazy" data-src="amibence/img20.jpg" src="amibence/img20.jpg" alt="media" />
+                                <img class="lazy" data-src="compressed-imgs/img7.jpg" src="compressed-imgs/img7.jpg"
+                                    alt="media" />
                             </picture>
                         </div>
                         <div class="swiper-slide">
                             <picture>
-                                <source data-srcset="" srcset="amibence/img8.jpg" type="image/webp" />
-                                <img class="lazy" data-src="amibence/img8.jpg" src="amibence/img8.jpg" alt="media" />
+                                <source data-srcset="compressed-imgs/img20.jpg" srcset="compressed-imgs/img20.jpg"
+                                    type="image/webp" />
+                                <img class="lazy" data-src="compressed-imgs/img20.jpg" src="compressed-imgs/img20.jpg"
+                                    alt="media" />
+                            </picture>
+                        </div>
+                        <div class="swiper-slide">
+                            <picture>
+                                <source data-srcset="compressed-imgs/img8 (2).jpg" srcset="compressed-imgs/img8 (2).jpg"
+                                    type="image/webp" />
+                                <img class="lazy" data-src="compressed-imgs/img8 (2).jpg"
+                                    src="compressed-imgs/img8 (2).jpg" alt="media" />
                             </picture>
                         </div>
                     </div>
@@ -3303,7 +3304,7 @@
         </section>
         <!-- hero section end -->
         <!-- banner start -->
-        <div class="banner" style="background-image: url('amibence/img12.jpg');">
+        <div class="banner" style="background-image: url('compressed-imgs/img12.jpg');">
         </div>
         <!-- banner end -->
         <!-- offer section start -->
@@ -3321,8 +3322,9 @@
             <div class="container d-md-flex align-items-center">
                 <div class="offer_media" data-aos="fade-right">
                     <picture>
-                        <source data-srcset="amibence/img28.jpg" srcset="amibence/img28.jpg" type="image/jpg" />
-                        <img class="lazy" data-src="amibence/img28.jpg" src="amibence/img28.jpg" alt="" />
+                        <source data-srcset="compressed-imgs/img28.jpg" srcset="compressed-imgs/img28.jpg"
+                            type="image/jpg" />
+                        <img class="lazy" data-src="compressed-imgs/img28.jpg" src="compressed-imgs/img28.jpg" alt="" />
                     </picture>
                 </div>
                 <div class="offer_main">
@@ -3379,10 +3381,10 @@
                                     <a class="link" href="#">
                                         <div class="media">
                                             <picture>
-                                                <source data-srcset="img/food/pasta/creamy.png"
-                                                    srcset="img/food/pasta/creamy.png" type="image/jpg" />
-                                                <img class="lazy" data-src="img/food/pasta/creamy.png"
-                                                    src="img/food/pasta/creamy.png" alt="" />
+                                                <source data-srcset="compressed-imgs/creamy.png"
+                                                    srcset="compressed-imgs/creamy.png" type="image/jpg" />
+                                                <img class="lazy" data-src="compressed-imgs/creamy.png"
+                                                    src="compressed-imgs/creamy.png" alt="" />
                                             </picture>
                                         </div>
                                         <div class="main">
@@ -3400,10 +3402,10 @@
                                     <a class="link" href="#">
                                         <div class="media">
                                             <picture>
-                                                <source data-srcset="img/food/small-plates/chicken-skwer.jpg"
-                                                    srcset="img/food/small-plates/chicken-skwer.jpg" type="image/jpg" />
-                                                <img class="lazy" data-src="img/food/small-plates/chicken-skwer.jpg"
-                                                    src="img/food/small-plates/chicken-skwer.jpg" alt="" />
+                                                <source data-srcset="compressed-imgs/chic-skew.jpg"
+                                                    srcset="compressed-imgs/chic-skew.jpg" type="image/jpg" />
+                                                <img class="lazy" data-src="compressed-imgs/chic-skew.jpg"
+                                                    src="compressed-imgs/chic-skew.jpg" alt="" />
                                             </picture>
                                         </div>
                                         <div class="main">
@@ -3417,10 +3419,10 @@
                                     <a class="link" href="#">
                                         <div class="media">
                                             <picture>
-                                                <source data-srcset="img/food/soup-salad/singapore-lasa.jpg"
-                                                    srcset="img/food/soup-salad/singapore-lasa.jpg" type="image/webp" />
-                                                <img class="lazy" data-src="img/food/soup-salad/singapore-lasa.jpg"
-                                                    src="img/food/soup-salad/singapore-lasa.jpg" alt="" />
+                                                <source data-srcset="compressed-imgs/singapore-lasa.jpg"
+                                                    srcset="compressed-imgs/singapore-lasa.jpg" type="image/webp" />
+                                                <img class="lazy" data-src="compressed-imgs/singapore-lasa.jpg"
+                                                    src="compressed-imgs/singapore-lasa.jpg" alt="" />
                                             </picture>
                                         </div>
                                         <div class="main">
@@ -3435,10 +3437,10 @@
                                     <a class="link" href="#">
                                         <div class="media">
                                             <picture>
-                                                <source data-srcset="img/food/pasta/spaghetti.png"
-                                                    srcset="img/food/pasta/spaghetti.png" type="image/webp" />
-                                                <img class="lazy" data-src="img/food/pasta/spaghetti.png"
-                                                    src="img/food/pasta/spaghetti.png" alt="" />
+                                                <source data-srcset="compressed-imgs/spaghetti.png"
+                                                    srcset="compressed-imgs/spaghetti.png" type="image/webp" />
+                                                <img class="lazy" data-src="compressed-imgs/spaghetti.png"
+                                                    src="compressed-imgs/spaghetti.png" alt="" />
                                             </picture>
                                         </div>
                                         <div class="main">
@@ -3457,11 +3459,10 @@
                                     <a class="link" href="#">
                                         <div class="media">
                                             <picture>
-                                                <source
-                                                    data-srcset="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_Baklava_Latte__Cold_Hot__1726630749823_baklava_shake.jfif"
-                                                    srcset="img/placeholder.jpg" type="image/webp" />
-                                                <img class="lazy" data-src="img/placeholder.jpg"
-                                                    src="img/placeholder.jpg" alt="" />
+                                                <source data-srcset="" srcset="compressed-imgs/baklava.jpg"
+                                                    type="image/webp" />
+                                                <img class="lazy" data-src="compressed-imgs/baklava.jpg"
+                                                    src="compressed-imgs/baklava.jpg" alt="" />
                                             </picture>
                                         </div>
                                         <div class="main">
@@ -3475,11 +3476,10 @@
                                     <a class="link" href="#">
                                         <div class="media">
                                             <picture>
-                                                <source
-                                                    data-srcset="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_Dalgona_Honey_Comb_1726630854377_dalgona.jfif"
-                                                    srcset="img/placeholder.jpg" type="image/webp" />
-                                                <img class="lazy" data-src="img/placeholder.jpg"
-                                                    src="img/placeholder.jpg" alt="Starters dish" />
+                                                <source data-srcset="" srcset="compressed-imgs/honey.jpg"
+                                                    type="image/webp" />
+                                                <img class="lazy" data-src="compressed-imgs/honey.jpg"
+                                                    src="compressed-imgs/honey.jpg" alt="" />
                                             </picture>
                                         </div>
                                         <div class="main">
@@ -3493,11 +3493,10 @@
                                     <a class="link" href="#">
                                         <div class="media">
                                             <picture>
-                                                <source
-                                                    data-srcset="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_Dalgona_Honey_Comb_1726630926826_tiramisu.jfif"
-                                                    srcset="img/placeholder.jpg" type="image/webp" />
-                                                <img class="lazy" data-src="img/placeholder.jpg"
-                                                    src="img/placeholder.jpg" alt="Starters dish" />
+                                                <source data-srcset="compressed-imgs/tiramisu.jpg"
+                                                    srcset="compressed-imgs/tiramisu.jpg" type="image/webp" />
+                                                <img class="lazy" data-src="compressed-imgs/tiramisu.jpg"
+                                                    src="compressed-imgs/tiramisu.jpg" alt="" />
                                             </picture>
                                         </div>
                                         <div class="main">
@@ -3511,11 +3510,10 @@
                                     <a class="link" href="#">
                                         <div class="media">
                                             <picture>
-                                                <source
-                                                    data-srcset="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_Coconut_Caramel_Frappe_1726631020775_coconut_frappe.jfif"
-                                                    srcset="img/placeholder.jpg" type="image/webp" />
-                                                <img class="lazy" data-src="img/placeholder.jpg"
-                                                    src="img/placeholder.jpg" alt="Starters dish" />
+                                                <source data-srcset="compressed-imgs/coconut.jpg"
+                                                    srcset="compressed-imgs/coconut.jpg" type="image/webp" />
+                                                <img class="lazy" data-src="compressed-imgs/coconut.jpg"
+                                                    src="compressed-imgs/coconut.jpg" alt="" />
                                             </picture>
                                         </div>
                                         <div class="main">
@@ -3534,10 +3532,10 @@
                                     <a class="link" href="#">
                                         <div class="media">
                                             <picture>
-                                                <source data-srcset="img/dessert/wrath.png"
-                                                    srcset="img/dessert/wrath.png" type="image/webp" />
-                                                <img class="lazy" data-src="img/dessert/wrath.png"
-                                                    src="img/dessert/wrath.png" alt="" />
+                                                <source data-srcset="compressed-imgs/wrath.png"
+                                                    srcset="compressed-imgs/wrath.png" type="image/webp" />
+                                                <img class="lazy" data-src="compressed-imgs/wrath.png"
+                                                    src="compressed-imgs/wrath.png" alt="" />
                                             </picture>
                                         </div>
                                         <div class="main">
@@ -3551,10 +3549,10 @@
                                     <a class="link" href="#">
                                         <div class="media">
                                             <picture>
-                                                <source data-srcset="img/dessert/greed.png"
-                                                    srcset="img/dessert/greed.png" type="image/webp" />
-                                                <img class="lazy" data-src="img/dessert/greed.png"
-                                                    src="img/dessert/greed.png" alt="" />
+                                                <source data-srcset="compressed-imgs/greed.png"
+                                                    srcset="compressed-imgs/greed.png" type="image/webp" />
+                                                <img class="lazy" data-src="compressed-imgs/greed.png"
+                                                    src="compressed-imgs/greed.png" alt="" />
                                             </picture>
                                         </div>
                                         <div class="main">
@@ -3568,10 +3566,10 @@
                                     <a class="link" href="#">
                                         <div class="media">
                                             <picture>
-                                                <source data-srcset="img/dessert/lust.png" srcset="img/dessert/lust.png"
-                                                    type="image/webp" />
-                                                <img class="lazy" data-src="img/dessert/lust.png"
-                                                    src="img/dessert/lust.png" alt="" />
+                                                <source data-srcset="compressed-imgs/lust.png"
+                                                    srcset="compressed-imgs/lust.png" type="image/webp" />
+                                                <img class="lazy" data-src="compressed-imgs/lust.png"
+                                                    src="compressed-imgs/lust.png" alt="" />
                                             </picture>
                                         </div>
                                         <div class="main">
@@ -3585,10 +3583,10 @@
                                     <a class="link" href="#">
                                         <div class="media">
                                             <picture>
-                                                <source data-srcset="img/dessert/gluttony.png"
-                                                    srcset="img/dessert/gluttony.png" type="image/webp" />
-                                                <img class="lazy" data-src="img/dessert/gluttony.png"
-                                                    src="img/dessert/gluttony.png" alt="" />
+                                                <source data-srcset="compressed-imgs/gluttony.png"
+                                                    srcset="compressed-imgs/gluttony.png" type="image/webp" />
+                                                <img class="lazy" data-src="compressed-imgs/gluttony.png"
+                                                    src="compressed-imgs/gluttony.png" alt="" />
                                             </picture>
                                         </div>
                                         <div class="main">
@@ -3607,10 +3605,10 @@
                                     <a class="link" href="#">
                                         <div class="media">
                                             <picture>
-                                                <source data-srcset="img/moctail/shake.png"
-                                                    srcset="img/moctail/shake.png" type="image/webp" />
-                                                <img class="lazy" data-src="img/moctail/shake.png"
-                                                    src="img/moctail/shake.png" alt="" />
+                                                <source data-srcset="compressed-imgs/shake.png"
+                                                    srcset="compressed-imgs/shake.png" type="image/webp" />
+                                                <img class="lazy" data-src="compressed-imgs/shake.png"
+                                                    src="compressed-imgs/shake.png" alt="" />
                                             </picture>
                                         </div>
                                         <div class="main">
@@ -3625,10 +3623,10 @@
                                     <a class="link" href="#">
                                         <div class="media">
                                             <picture>
-                                                <source data-srcset="img/moctail/twister.png"
-                                                    srcset="img/moctail/twister.png" type="image/webp" />
-                                                <img class="lazy" data-src="img/moctail/twister.png"
-                                                    src="img/moctail/twister.png" alt="Desserts dish" />
+                                                <source data-srcset="compressed-imgs/twister.png"
+                                                    srcset="compressed-imgs/twister.png" type="image/webp" />
+                                                <img class="lazy" data-src="compressed-imgs/twister.png"
+                                                    src="compressed-imgs/twister.png" alt="" />
                                             </picture>
                                         </div>
                                         <div class="main">
@@ -3645,10 +3643,10 @@
                                     <a class="link" href="#">
                                         <div class="media">
                                             <picture>
-                                                <source data-srcset="img/moctail/neon.png" srcset="img/moctail/neon.png"
-                                                    type="image/webp" />
-                                                <img class="lazy" data-src="img/moctail/neon.png"
-                                                    src="img/moctail/neon.png" alt="" />
+                                                <source data-srcset="compressed-imgs/neon.png"
+                                                    srcset="compressed-imgs/neon.png" type="image/webp" />
+                                                <img class="lazy" data-src="compressed-imgs/neon.png"
+                                                    src="compressed-imgs/neon.png" alt="" />
                                             </picture>
                                         </div>
                                         <div class="main">
@@ -3663,17 +3661,17 @@
                                     <a class="link" href="#">
                                         <div class="media">
                                             <picture>
-                                                <source data-srcset="img/moctail/pop.png" srcset="img/moctail/pop.png"
-                                                    type="image/webp" />
-                                                <img class="lazy" data-src="img/moctail/pop.png"
-                                                    src="img/moctail/pop.png" alt="" />
+                                                <source data-srcset="compressed-imgs/pop.png"
+                                                    srcset="compressed-imgs/pop.png" type="image/webp" />
+                                                <img class="lazy" data-src="compressed-imgs/pop.png"
+                                                    src="compressed-imgs/pop.png" alt="" />
                                             </picture>
                                         </div>
                                         <div class="main">
                                             <span class="main_price">300</span>
                                             <span class="main_title h5">Pop</span>
                                             <p class="main_ingredients">A Perfectly balance non alcoholic drink with pop
-                                                corn flavour..</p>
+                                                corn flavour.</p>
                                         </div>
                                     </a>
                                 </li>
@@ -3962,9 +3960,9 @@
                         <a class="link" href="#">
                             <div class="media">
                                 <picture>
-                                    <source data-srcset="img/cocktail/tiger.png" srcset="img/cocktail/tiger.png"
+                                    <source data-srcset="all-used-imgs/tiger.png" srcset="all-used-imgs/tiger.png"
                                         type="image/webp" />
-                                    <img class="lazy" data-src="img/cocktail/tiger.png" src="img/cocktail/tiger.png"
+                                    <img class="lazy" data-src="all-used-imgs/tiger.png" src="all-used-imgs/tiger.png"
                                         alt="" />
                                 </picture>
                             </div>
@@ -3983,14 +3981,9 @@
                         <a class="link" href="#">
                             <div class="media">
                                 <picture>
-                                    <source
-                                        data-srcset="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_Baklava_Latte__Cold_Hot__1726630749823_baklava_shake.jfif"
-                                        srcset="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_Baklava_Latte__Cold_Hot__1726630749823_baklava_shake.jfif"
-                                        type="image/webp" />
-                                    <img class="lazy"
-                                        data-src="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_Baklava_Latte__Cold_Hot__1726630749823_baklava_shake.jfif"
-                                        src="https://airmenusimages.blr1.cdn.digitaloceanspaces.com/item/item_Baklava_Latte__Cold_Hot__1726630749823_baklava_shake.jfif"
-                                        alt="" />
+                                    <source data-srcset="" srcset="compressed-imgs/baklava.jpg" type="image/webp" />
+                                    <img class="lazy" data-src="compressed-imgs/baklava.jpg"
+                                        src="compressed-imgs/baklava.jpg" alt="" />
                                 </picture>
                             </div>
                             <div class="main">
@@ -4006,9 +3999,9 @@
                         <a class="link" href="#">
                             <div class="media">
                                 <picture>
-                                    <source data-srcset="img/dessert/lust.png" srcset="img/dessert/lust.png"
+                                    <source data-srcset="compressed-imgs/lust.png" srcset="compressed-imgs/lust.png"
                                         type="image/webp" />
-                                    <img class="lazy" data-src="img/dessert/lust.png" src="img/dessert/lust.png"
+                                    <img class="lazy" data-src="compressed-imgs/lust.png" src="compressed-imgs/lust.png"
                                         alt="" />
                                 </picture>
                             </div>
@@ -4029,8 +4022,9 @@
         <section class="testimonials">
             <div class="media">
                 <picture>
-                    <source data-srcset="amibence/2.jpg" srcset="img/placeholder.jpg" type="image/webp" />
-                    <img class="lazy" data-src="img/placeholder.jpg" src="img/placeholder.jpg" alt="" />
+                    <source data-srcset="compressed-imgs/edited.jpg" srcset="compressed-imgs/edited.jpg"
+                        type="image/webp" />
+                    <img class="lazy" data-src="compressed-imgs/edited.jpg" src="compressed-imgs/edited.jpg" alt="" />
                 </picture>
             </div>
             <div class="main">
@@ -4118,20 +4112,20 @@
                 <div class="recent_wrapper">
                     <div class="recent_media">
                         <picture>
-                            <source data-srcset="img/food/soup-salad/chicken-pho.png"
-                                srcset="img/food/soup-salad/chicken-pho.png" type="image/webp" />
-                            <img class="lazy" data-src="img/food/soup-salad/chicken-pho.png"
-                                src="img/food/soup-salad/chicken-pho.png" alt="Our Blog" />
+                            <source data-srcset="compressed-imgs/chicken-pho.png"
+                                srcset="compressed-imgs/chicken-pho.png" type="image/webp" />
+                            <img class="lazy" data-src="compressed-imgs/chicken-pho.png"
+                                src="compressed-imgs/chicken-pho.png" alt="Our Blog" />
                         </picture>
                     </div>
                     <div class="recent_posts">
                         <div class="recent_posts-item" data-aos="fade-left">
                             <div class="media">
                                 <picture>
-                                    <source data-srcset="img/food/soup-salad/chicken-salad.png"
-                                        srcset="img/food/soup-salad/chicken-salad.png" type="image/webp" />
-                                    <img class="lazy" data-src="img/food/soup-salad/chicken-salad.png"
-                                        src="img/food/soup-salad/chicken-salad.png" alt="" />
+                                    <source data-srcset="compressed-imgs/chicken-salad.png"
+                                        srcset="compressed-imgs/chicken-salad.png" type="image/webp" />
+                                    <img class="lazy" data-src="compressed-imgs/chicken-salad.png"
+                                        src="compressed-imgs/chicken-salad.png" alt="" />
                                 </picture>
                                 <span class="media_date h6">17 Oct, 2024</span>
                             </div>
@@ -4148,10 +4142,10 @@
                         <div class="recent_posts-item" data-aos="fade-left">
                             <div class="media">
                                 <picture>
-                                    <source data-srcset="img/food/pizza/greek.jpg" srcset="img/food/pizza/greek.jpg"
+                                    <source data-srcset="compressed-imgs/greek.jpg" srcset="compressed-imgs/greek.jpg"
                                         type="image/webp" />
-                                    <img class="lazy" data-src="img/food/pizza/greek.jpg" src="img/food/pizza/greek.jpg"
-                                        alt="" />
+                                    <img class="lazy" data-src="compressed-imgs/greek.jpg"
+                                        src="compressed-imgs/greek.jpg" alt="" />
                                 </picture>
                                 <span class="media_date h6">17 Oct, 2024</span>
                             </div>
